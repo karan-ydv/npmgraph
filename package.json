@@ -31,7 +31,7 @@
     "./node_modules/@hpcc-js/wasm-graphviz/dist/graphvizlib.wasm": false
   },
   "scripts": {
-    "build": "parcel build index.html --no-cache",
+    "build": "parcel build index.html --no-cache --public-url /npmgraph/",
     "fetch-licenses": "node scripts/fetch_licenses.js",
     "release": "standard-version",
     "start": "parcel serve index.html --no-cache",
